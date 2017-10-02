@@ -25,4 +25,9 @@ app.get('/api/recently', function(req, res) {
     res.json({recently : recentlySearch});
 });
 
+app.get('/', function(req, res) {
+  res.set('Content-Type', 'text/plain');
+  res.send('Search Image: https://debonair-street.glitch.me/api/imagesearch/cats?offset=10 \nrecently: https://debonair-street.glitch.me/api/recently')
+});
+
 app.listen(process.env.PORT || 3000);
