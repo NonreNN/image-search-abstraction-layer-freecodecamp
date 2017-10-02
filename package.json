@@ -1,0 +1,16 @@
+{
+  "name": "image-search-abstraction-layer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "image-search-abstraction-layer.js",
+  "dependencies": {
+    "express": "^4.16.1",
+    "request": "^2.83.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "NonreNN",
+  "license": "ISC"
+}
